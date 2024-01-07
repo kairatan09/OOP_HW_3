@@ -3,12 +3,12 @@ package HW3;
 public class Book {
     private final String title;
     private final String author;
-    private final int publichedYear;
+    private final int publishedYear;
 
-    public Book(String title, String author, int publichedYear) {
+    public Book(String title, String author, int publishedYear) {
         this.title = title;
         this.author = author;
-        this.publichedYear = publichedYear;
+        this.publishedYear = publishedYear;
     }
 
     public String getTitle() {
@@ -19,14 +19,14 @@ public class Book {
         return author;
     }
 
-    public int getPublichedYear() {
-        return publichedYear;
+    public int getPublishedYear() {
+        return publishedYear;
     }
 
     @Override
     public String toString() {
         return "Название: " + title +
                 "\nАвтор: " + author +
-                "\nГод издания: " + publichedYear;
+                "\nГод издания: " + publishedYear;
     }
 }

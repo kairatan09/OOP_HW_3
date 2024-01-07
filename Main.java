@@ -22,7 +22,7 @@ public class Main {
         library.booksPrint();
 
         System.out.println("Вортировка книг Году издания:\n");
-        library.books.sort(new PublichedYearComarator());
+        library.books.sort(new PublishedYearComparator());
         library.booksPrint();
     }
 }
